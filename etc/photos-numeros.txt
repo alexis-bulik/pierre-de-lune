@@ -1,0 +1,52 @@
+#prise de mesure
+3942
+4020
+
+#cabine
+4006
+4019
+4024
+4028
+
+#interieur-boutique
+4007
+
+#boutique devanture
+4036
+4040
+
+#aubade
+03900
+03903
+03908
+03918
+03914
+03916
+
+#satellite
+0389
+0387
+03983
+
+#simone perele
+03928
+03929
+03937
+03949
+03940
+
+#calida
+4010 à retoucher, la couper
+
+#implicite
+3990
+celle en format panthère par mail.
+
+#marie jo
+03936
+une photo envoyée par mail
+
+#prima donna
+4004
+4012
+3999

@@ -1,30 +1,43 @@
-{{!-- This is the base layout for your project, and will be used on every page unless specified. --}}
-
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{meta-title}} | Foundation for Sites</title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
-  </head>
-  <body class="{{page}} {{layout}}">
-
-    <div class="app-dashboard shrink-medium">
-      {{> main-nav}}
-
-      <div class="app-dashboard-body off-canvas-wrapper">
-        {{> app-sidebar}}
-
-        <div class="app-dashboard-body-content off-canvas-content" data-off-canvas-content>
-
-          {{> body}}
-
+<html class="no-js" lang="fr" dir="ltr">
+<head>
+    <title>Pierre de Lune</title>
+    {{> meta}}
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/font/foundation-icons/foundation-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body class="index default">
+    <div class="grid-container full">
+        <div class="grid-x">
+            <header class="cell">
+                <div class="grid-x grid-padding-x grid-padding-y">
+                    <div class="cell small-12 medium-8">
+                        {{> header}}
+                    </div>
+                    <div class="cell small-12 medium-4 footer self-align-middle">
+                        {{> informations}}
+                    </div>
+                </div>
+            </header>
+            <section class="cell">
+                <div class="grid-x grid-padding-y">
+                    <div class="cell small-12 medium-6 medium-offset-3 large-4 large-offset-4">
+                        {{> back-home}}
+                    </div>
+                    <section class="cell">
+                        {{> body}}
+                    </section>
+                    <div class="cell small-12 medium-6 medium-offset-3 large-4 large-offset-4">
+                        {{> back-home}}
+                    </div>
+                </div>
+            </section>
+            <footer class="cell">
+                {{> footer}}
+            </footer>
         </div>
-      </div>
     </div>
-
-    <script src="{{root}}assets/js/app.js"></script>
-  </body>
+    <script language="JavaScript" type="text/javascript" src="assets/js/app.js"></script>
+</body>
 </html>
