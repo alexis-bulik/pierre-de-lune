@@ -1,0 +1,65 @@
+$primary: #C1897f;
+$primary-alt: #c2b3b3;
+$primary-light: #f9f6f8;
+$primary-text: #1f1818;
+$primary-text-alt: #756161;
+
+$secondary: #4e595f;
+$secondary-text: #cad7e0;
+$secondary-text-alt: #cad7e0;
+
+$tertiary: #97d7f5;
+
+$primary-anchor: #f5e2ef;
+$primary-anchor-hover: #f8b6e3;
+
+$secondary-anchor: #306c88;
+$secondary-anchor-hover: #094561;
+
+$foundation-palette: (
+  primary: /*#1779ba,*/$primary,
+  secondary: /*#767676*/$secondary,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+$light-gray: /*#e6e6e6;*/$primary-light;
+$medium-gray: #cab9c4;
+$dark-gray: #756161;
+$black: #0f0e0e;
+$white: #fff0f0;
+$body-background: $dark-gray;
+$body-font-color: $black;
+
+body {
+  background-color: $secondary;
+  color: $primary-text;
+}
+a {
+  color: $primary-anchor;
+  &:hover {
+    color: $primary-anchor-hover;
+  }
+}
+
+header {
+  background-color: $primary;
+}
+
+footer, .footer {
+  background : $primary;
+  color: $primary-text;
+  small {
+      color: $primary-text-alt;
+  }
+  a, a > i {
+    color: $primary-anchor;
+    &:hover {
+      color: $primary-anchor-hover;
+    }
+  }
+}
+
+.big-countainer {
+  background : $primary-light;
+}
